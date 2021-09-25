@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>减脂期如何吃</title>
+    <url>/2021/09/09/%E5%87%8F%E8%84%82%E6%9C%9F%E5%A6%82%E4%BD%95%E5%90%83/</url>
+    <content><![CDATA[<p>日常中总有朋友问我，我每天只吃两顿饭，晚上不吃饭，为什么还是瘦不下来？我到底要吃多少才能达到减肥的目的？</p>
+<p>话不多说，直接上干货。</p>
+<h2 id="制造热量缺口"><a href="#制造热量缺口" class="headerlink" title="制造热量缺口"></a>制造热量缺口</h2><p>​        热量缺口指的是我们每天消耗的热量和摄入的热量的差，这个差就是热量缺口。我们只要每天保持<strong>摄入的热量小于消耗的热量</strong>即可。</p>
+<h2 id="为什么不提倡节食"><a href="#为什么不提倡节食" class="headerlink" title="为什么不提倡节食"></a>为什么不提倡节食</h2><p>​        上面提到了，想减肥，需要制造热量缺口，但是这个热量缺口不能过大，如果缺口过大，我们的身体会认为你正处于一种紧急状态，出于保护你的目的，身体会自动降低你的基础代谢率，减少热量的消耗，以便应对紧急状态，使你可以更长久的生存下去。</p>
+<h2 id="节食为什么会反弹"><a href="#节食为什么会反弹" class="headerlink" title="节食为什么会反弹"></a>节食为什么会反弹</h2><p>​        在节食的状态下，身体会很“为我们着想”的降低基础代谢率，待你感觉自己没有瘦想要放弃，或者朋友聚会破戒，那么在低代谢率的情况下，身体会把你吃进去的多余的热量存储起来，从而导致反弹。</p>
+<p>举个栗子：</p>
+<p>​        你的基础代谢是1800，加上日常上下班和正常消耗，你一天可以代谢掉2000大卡的热量。但是因为节食，你的身体进入到了应急状态，将你身体的基础代谢率降低到了1300，加上日常的消耗，你一天可以代谢掉1500大卡的热量。在你没控制住时，晚上开始吃饭，你的身体也只会代谢掉1500大卡的热量，多吃进去的热量身体就会将它存储起来，慢慢脂肪就会越来越多，待身体恢复到1800基础代谢时，你的脂肪早已超过节食前，从而导致反弹。</p>
+<h2 id="基础代谢率的计算"><a href="#基础代谢率的计算" class="headerlink" title="基础代谢率的计算"></a>基础代谢率的计算</h2><h2 id="日常会消耗多少热量"><a href="#日常会消耗多少热量" class="headerlink" title="日常会消耗多少热量"></a>日常会消耗多少热量</h2><h2 id="常见主食的热量"><a href="#常见主食的热量" class="headerlink" title="常见主食的热量"></a>常见主食的热量</h2><h2 id="家常菜的热量"><a href="#家常菜的热量" class="headerlink" title="家常菜的热量"></a>家常菜的热量</h2><h2 id="常见饮品的热量"><a href="#常见饮品的热量" class="headerlink" title="常见饮品的热量"></a>常见饮品的热量</h2>]]></content>
+      <categories>
+        <category>健身</category>
+      </categories>
+      <tags>
+        <tag>减肥</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO博客搭建流程</title>
+    <url>/2021/09/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h5 id="Hexo博客是现在比较流行的表态博客网站，没有后台，文章的管理需要先在本地处理，之后用命令行推送到Github或Gitee上面进行更新后才能被访问。以下来博客的搭建流程："><a href="#Hexo博客是现在比较流行的表态博客网站，没有后台，文章的管理需要先在本地处理，之后用命令行推送到Github或Gitee上面进行更新后才能被访问。以下来博客的搭建流程：" class="headerlink" title="Hexo博客是现在比较流行的表态博客网站，没有后台，文章的管理需要先在本地处理，之后用命令行推送到Github或Gitee上面进行更新后才能被访问。以下来博客的搭建流程："></a>Hexo博客是现在比较流行的表态博客网站，没有后台，文章的管理需要先在本地处理，之后用命令行推送到Github或Gitee上面进行更新后才能被访问。以下来博客的搭建流程：</h5><ol>
+<li>安装nodjs环境，这个可以到<a href="https://nodejs.org/en/">官方网站</a>去下载</li>
+<li>安装git环境,去<a href="https://git-scm.com/">官方网站</a>下载</li>
+<li>去Hexo<a href="https://hexo.io/">官方网站</a>安装Hexo</li>
+<li>所有环境都安装完毕后，在终端或CMD命令行中查看环境是否安装成功<ul>
+<li>查看nodejs是否安装成功：<code>node -v</code></li>
+<li>查看git是否安装成功：<code>git -version</code></li>
+<li>查看Hexo是否安装成功：<code>hexo -v</code></li>
+<li>如果上面的都正常显示版本号，说明安装成功</li>
+</ul>
+</li>
+<li>安装淘宝镜像<ol>
+<li>命令行中运行：<code>npm install -g cnpm --registry=https://registry.npm.taobao.org </code></li>
+</ol>
+</li>
+<li>部署Hexo环境<ol>
+<li>安装Hexo 依赖：<code>npm install hexo-cli -g</code></li>
+<li>在博客的文件夹内运行：<code>hexo init</code><ul>
+<li>也可以在外层文件夹运行：<code>hexo init blog</code></li>
+</ul>
+</li>
+<li>在博客文件夹内运行：<code>npm install</code></li>
+<li>安装hexo-deployer-git插件：<code>npm install --save hexo-deployer-git</code></li>
+<li>部署完成，接下来可以通过命令操作<ul>
+<li><code>hexo cl</code>  ——清理缓存</li>
+<li><code>hexo g</code>  ——生成静态网页</li>
+<li><code>hexo s</code>  ——部署本地服务器</li>
+<li><code>hero d</code>  ——推送到Github或Gitee</li>
+<li><code>hexo n</code> “名称”  ——创建博客，在source/_post/ 文件夹内就会生成名称.md的文件，可以直接用markdown写博客</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">如果你没有 pug 以及 stylus 的渲染器，请下载安装：</span><br><span class="line"></span><br><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>
+
+<hr>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">如果hexo d后显示ERROR Deployer not found，可以运行下面的命令</span><br><span class="line"></span><br><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+
+
+<p>在推送前，需要进入博客根目录下，找到_config.yml，修改如下内容</p>
+<img src="https://gitee.com/riddwfn/imgcloud/raw/master/img/image-20210831122903101.png" alt="image-20210831122903101" style="zoom:50%;" />
+
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+</search>
